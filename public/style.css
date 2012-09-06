@@ -1,6 +1,6 @@
 #border {
 	background-image: url('/hexabump.png') !important;
-	background-repeat: repsat-x !important;
+	background-repeat: repeat-x !important;
 	margin-left: -19px;
 	width: 104%;
 }
@@ -14,4 +14,10 @@ margin-top: 100px;
 }
 #pricebox {
 	margin-top: 65px;
+}
+
+body{
+	background-image: url('/grass.jpg') !important;
+	background-repeat: repeat;
+
 }
