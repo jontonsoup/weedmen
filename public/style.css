@@ -1,0 +1,9 @@
+#border {
+	background-image: url('/hexabump.png') !important;
+	background-repeat: repsat-x !important;
+	margin-left: -19px;
+	width: 104%;
+}
+#appeal{
+margin-top: 100px;
+}
