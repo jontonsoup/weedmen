@@ -21,7 +21,7 @@ post "/" do
 		if moo == 'moo'
         	#Pony.mail(:to => 'friedmanj98@gmail.com', :from => "#{mail}", :subject => "Inquiry from #{name}", :body => "#{body}", :via => :smtp)
         	    Pony.mail(
-      :from => params[:name] + "<" + params[:mail] + ">",
+      :from => name + "<" + mail + ">",
       :to => 'friedmanj98@gmail.com',
       :subject => params[:name] + " has contacted you",
       :body => params[:body],
